@@ -2,16 +2,21 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="js/index.js"></script> 
 	<title>Dilanga's Portfolio | Home</title>
-	<script src="https://kit.fontawesome.com/9bdc906322.js"></script>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-	<link rel="icon" href="img/logo.jpeg" type="image/icon type">
+	<link rel="icon" type="image/x-icon type" href="img/favicon_io/logo_blue.ico">
+	<meta charset="UTF-8">
+	<meta name="description" content="Details of Dilanga Algama's Portfolio. A Full-Stack Web Developer based in Ottawa. Previously working for uOttawa as a Web Developer. 2021 gradute from University of Ottawa BSc with Honours in Computer Science and Business Managment.">
+	<meta name="keywords" content="Dilanga Algama, Portfolio, Experience, Education">
+	<meta name="author" content="Dilanga Algama">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<nav class="navbar" role="navigation" aria-label="main navigation">
 		<div class="nav-brand">
 			<a class="navbar-item" href="index.html">
-				<img src="img/logo.jpeg" alt="Dilanga Algama | Full-stack developer" height="48">
+				<img src="img/logo.png" alt="Dilanga Algama | Full-stack developer" height="48">
 			</a>
 		</div>
 	</nav>
@@ -42,18 +47,66 @@
 					<img src="img/mail.svg">
 				</a>
 			</div>
-			
+			<div class="next">
+				<a href="#custom-footer">
+					<svg preserveAspectRatio="xMidYMid meet" data-bbox="19.917 17 162 162" viewBox="19.917 17 162 162" height="40" width="40" xmlns="http://www.w3.org/2000/svg" data-type="color" role="img" aria-labelledby="svgcid--x7jc1292fn2b"><defs><style>#comp-ki4ml8dn svg [data-color="1"] {fill: #000000;}</style></defs><title id="svgcid--x7jc1292fn2b"></title><g><path d="M100.917 179c-44.664 0-81-36.337-81-81 0-44.664 36.336-81 81-81s81 36.336 81 81c0 44.663-36.337 81-81 81zm0-158c-42.458 0-77 34.542-77 77s34.542 77 77 77 77-34.542 77-77-34.542-77-77-77z" fill="#ffffff" data-color="1"></path>
+					<path fill="#ffffff" d="M102.917 46.796v100.945h-4V46.796h4z" data-color="1"></path>
+					<path fill="#ffffff" d="M100.44 150.569L49.286 99.414l2.828-2.828 48.326 48.327 49.79-49.79 2.829 2.828-52.619 52.618z" data-color="1"></path>
+					</g>
+					</svg>
+				</a>
+			</div>
 		</section>
-		<div class="education">
+		<div class= "experience">
+			
+		</div>
 
+		<div class="education">
+			<!-- <a href="http://example.com">
+			<div>
+			anything
+			</div>
+			</a> -->
 		</div>
 		<div class = "course">
 			
 		</div>
-		<div class= "experience">
-			
-		</div>
 		<div class= "projects">
+			<h2>Projects</h2>
+
+			<div class="project-background"></div>
+			<div class="container" id= "project-content">
+				<div class="row">
+					<div class="col-sm col-one col-left" onclick="ir();">
+						<img class = "prog-img" src="img/NeuralNetworks_Twitter.png">
+						<h4>Neural IR System (Twitter)</h4>
+						<p>2021</p>
+						<p>The objective of the system is to calculate a similarity score (multiple approaches) between a crawl of Tweets (Twitter) with a given set of queries. This system is useful to find tweets related to a set of queries you have in hand, where you would like more information about or related tweets.</p>
+					</div> 
+					<div class="col-sm col-one col-right" id="webchat" onclick="webchat();">
+						<img class = "prog-img" src="img/Webchat.png">
+						<h4>Online chat platform (WebChat)</h4>
+						<p>2020</p>
+						<p>Developed a Dynamic Website where users can chat with other anonymous users based on common interests. Server-side was running on a AWS server with Amazon DynamoDB database. Designed the front-end using HTML.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm col-two col-left" id="resto" onclick="resto();">
+						<img class = "prog-img" src="img/rating.png">
+						<h4>Restaurant rating website (Resto Presto)</h4>
+						<p>2018</p>
+						<p>Developed a Dynamic Web APP on Java EE Platform, where users can rate website restaurants they have visited. Server-side was running on Apache Tomcat server with PostgreSQL database. Designed the front end using HTML. </p>
+					</div>
+					<div class="col-sm col-two col-right" id="subway" onclick="subway();">
+						<img class = "prog-img" src="img/paris_subway.png" >
+						<h4>Java data system for the Paris Subway</h4>
+						<p>2017</p>
+						<p>The system was created for the Paris subway system. The system finds the most efficient and time saving route to take from the starting to ending location. The design provides the distance from each station that needs to be visited and the names of the stations.</p>
+					</div>
+				</div>
+			</div>
 			
 		</div>
 		<div class = "volunteer">
@@ -63,25 +116,20 @@
 			
 		</div>
 
-		<div class="resume">
+		<!-- <div class="resume">
 			<a href="Resume/Dilanga_Algama_Resume.pdf" target="_blank" alt="Resume document">Resume</a>
-		</div>
-			
-		</div>
-		
+		</div> -->
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
 </body>
 <footer>
-	<div class="custom-footer">
+	<div class="custom-footer" id= "custom-footer">
 		<div class="footer-logo">
 			<a href="index.html">
 				<img src="img/logo_white.jpeg" alt="Dilanga Algama | Full-stack developer" height="48">
 			</a>
 		</div>
-		
-
 		<div class="footer-title">
 			<p>Living, Learning, &amp; leveling up one day at a time.</p>
 		</div>
@@ -97,7 +145,8 @@
 				<img src="img/mail.svg">
 			</a>
 		</div>
-		<p>Handcrafted by me.</p>
+		<p>HANDCRAFTED BY DILANGA ALGAMA.</p>
+		<p>&#169; 2021 DILANGA. ALL RIGHTS RESERVED.</p>
 	</div>
 	
 </footer>
