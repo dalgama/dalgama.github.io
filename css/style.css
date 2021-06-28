@@ -17,7 +17,8 @@
 
 body {
   padding-top: 5%;
-	font-family: "europa", sans-serif;
+  font-family: 'opensans-regular', sans-serif !important;
+	/*font-family: "europa", sans-serif !important;*/
 	font-weight: 300;
 	font-size: 1.25rem;
 	line-height: 1.5;
@@ -29,12 +30,6 @@ h1 {
 	font-size:2rem;
 	font-weight: 800;
 }
-/*button {
-	padding-top: calc(0.5em 1px);
-	padding-bottom: calc(0.5em 1px);
-	padding-left: calc(0.75em 1px);
-	padding-right: calc(0.75em 1px);
-}*/
 
 footer {
 	color: white;
@@ -42,11 +37,6 @@ footer {
 	text-align: center;
 	vertical-align: baseline;
 }
-
-/*.nav-brand {
-	padding: 30px;
-	padding-left: 60px;
-}*/
 
 .intro {
 	text-align: center;
@@ -56,30 +46,52 @@ footer {
 	font-size: 25px;
 }
 
-.intro > img {
+.intro-avatar > img {
 	border-radius: 45%;
 	width: 300px;
 	background: #7510F7;
 	background-size: cover;
+	margin-top: 35px;
+	margin-bottom: 35px;
 }
+
+/* Phone layout */
+@media only screen and (max-width:480px){
+	h1 {
+		font-family: "eurostile", sans-serif;
+		font-size:1.6rem !important;
+		font-weight: 800;
+	}
+	.intro > p {
+		font-size: 1.0rem !important;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+  .intro-avatar > img{
+    width: 200px !important;
+    margin-top: 15px;
+		margin-bottom: 1px;
+  }
+  .main {
+		padding-top: 45px;
+	}
+} 
 
 .svg {
 	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 .intro {
 	padding-top: 45px;
-	padding-bottom: 30px;
+	padding-bottom: 45px;
 }
 
 .aboutme {
 	width: 100%
 	text-align:center;
 	padding: 20px;
-/*	margin-right: -5%;
-	margin-left: -5%;*/
 	color: white;
 	background-color: #7510F7;
 	font-family: 20px,europa, sans-serif;
@@ -192,6 +204,10 @@ footer > a {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 3%;
+}
+
+.degree {
+	font: 1.25rem 'librebaskerville-italic', serif;
 }
 
 .education-info {
@@ -735,8 +751,7 @@ img.prog-img {
 
 .main-timeline .timeline:nth-child(even) .content {
   float: left;
-  margin-right: 0px;                                      /* Mine */
-  margin-left: 100px;                                     /* Mine */
+  margin-left: 20px;                                      /* Mine */
 }
 
 .main-timeline .timeline:nth-child(even) .timeline-year {
