@@ -4,52 +4,63 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="js/index.js"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" >
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 	<link rel="shortcut icon" type="image/x-icon type" href="img/favicon_io/logo_blue.ico">
 	<title>Dilanga's Portfolio | Home</title>
 	<meta charset="UTF-8">
-	<meta name="description" content="Details of Dilanga Algama's Portfolio. A Full-Stack Web Developer based in Ottawa. Previously working for uOttawa as a Web Developer. 2021 gradute from University of Ottawa BSc with Honours in Computer Science and Business Managment.">
+	<meta name="description" content="Details of Dilanga Algama's Portfolio. A Full-Stack Web Developer based in Ottawa. Previously working for uOttawa as a Web Developer. 2021 graduate from University of Ottawa BSc. Computer Science and Business Managment.">
 	<meta name="keywords" content="Dilanga Algama, Portfolio, Experience, Education">
 	<meta name="author" content="Dilanga Algama">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<nav class="navbar navbar-expand-sm bgwhite">
-        <a class="navbar-item" href="index.html">
-        	<img src="img/logo.png" alt="Dilanga Algama | Full-stack developer" height="48">
-      	</a>
-        <ul class="navbar-nav ml-auto">
-        	<li class="nav-item">
-                <a class="nav-link" href="#education-anch">Education</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#experience-anch">Experience</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#skills-anch">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#projects-anch">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#volunteer-anch">Volunteering</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#rewards-anch">Rewards</a>
-            </li>
-        </ul>
-    </nav>
+	<nav class="navbar navbar-expand-sm navbar-light bgwhite">
+		<a class="navbar-brand" href="index.html">
+			<img src="img/logo.png" alt="Dilanga Algama | Full-stack developer" height="48">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#education-anch">Education</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#experience-anch">Experience</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#skills-anch">Skills</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#projects-anch">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#volunteer-anch">Volunteering</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#rewards-anch">Rewards</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
 	<div class="main">
 		<!-- <div class="parallax"></div> -->
-		<div class = "intro" id = "intro">
+		<div class = "intro" id = "intro-text">
 			<h1>Programmer, Full-Stack Web Developer.</h1>
 			<p>
 				I build and code beautifully functioning sites, and I love what I do.
 			</p>
-			<img class='avatar' src="img/avatar.png">
+			<div class = "intro-avatar">
+				<img class='avatar' src="img/avatar.png">
+			</div>
 		</div>
 		<img class="svg" src="img/coding.svg">
 
@@ -86,7 +97,7 @@
 			<h2>Education</h2>
 			<div class="education-info">
 				<h3>University of Ottawa</h3>
-				<p>BSc. Specialization in Computer Science and Business Management.</p>
+				<p class= "degree">BSc. Specialization in Computer Science and Business Management.</p>
 				<p>I have attended courses in Data Structure and Algorithm, Data Science, Information Retrieval, Digital Systems, Artificial Intelligence, Operating Systems, Software Engineering. In addition, I have taken courses in Business such as Marketing, Financial Accounting, Cross-Cultural Management and International Business. Graduated in June 2021.</p>
 				<div id = "experience-anch"></div>
 			</div>
@@ -130,16 +141,16 @@
 	                                </p>
 	                            </div>
 	                        </div>
-	                        <!-- <div class="timeline">
+	                        <div class="timeline">
 	                            <span class="timeline-icon"></span>
-	                            <span class="year">2014</span>
+	                            <span class="year">2021</span>
 	                            <div class="timeline-content">
-	                                <h3 class="title">Web Developer</h3>
-	                                <p class="description">
+	                                <h3 class="title">Programmer Analyst (University of Ottawa)</h3>
+	                                <!-- <p class="description">
 	                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis justo id pulvinar suscipit. Pellentesque rutrum vehicula erat sed dictum. Integer quis turpis magna. Suspendisse tincidunt elit at erat tincidunt, vel vulputate arcu dapibus. Etiam accumsan ornare posuere. Nullam est.
-	                                </p>
+	                                </p> -->
 	                            </div>
-	                        </div> -->
+	                        </div>
 	                    </div>
 	                </div>
 	            </div>
@@ -151,46 +162,79 @@
 		</div>
 		<div class= "skills" id = "skills">
 			<h2>Skills</h2>
+			
 			<div class="skill-bars">
+				<div class="bar">
+			    	<div class="info">
+				    	<span>PHP</span>
+				    </div>
+			    	<div class="progress-line php">
+			    		<span></span>
+			    	</div>
+		    	</div>
 			    <div class="bar">
-			      <div class="info">
-			        <span>HTML</span>
-			      </div>
-			      <div class="progress-line html">
-			        <span></span>
-			      </div>
+					<div class="info">
+						<span>HTML</span>
+					</div>
+					<div class="progress-line html">
+						<span></span>
+					</div>
+				</div>
+				<div class="bar">
+					<div class="info">
+						<span>CSS</span>
+					</div>
+					<div class="progress-line css">
+						<span></span>
+					</div>
+				</div>
+			    <div class="bar">
+					<div class="info">
+						<span>JavaScript</span>
+					</div>
+					<div class="progress-line js">
+						<span></span>
+					</div>
+				</div>
+			    <div class="bar">
+					<div class="info">
+						<span>jQuery</span>
+			    	</div>
+					<div class="progress-line jquery">
+				        <span></span>
+					</div>
+				</div>
+			    <div class="bar">
+					<div class="info">
+						<span>NodeJS</span>
+					</div>
+					<div class="progress-line nodejs">
+						<span></span>
+					</div>
 			    </div>
 			    <div class="bar">
-			      <div class="info">
-			        <span>CSS</span>
-			      </div>
-			      <div class="progress-line css">
-			        <span></span>
-			      </div>
+					<div class="info">
+						<span>MySQL</span>
+					</div>
+					<div class="progress-line mysql">
+						<span></span>
+					</div>
 			    </div>
 			    <div class="bar">
-			      <div class="info">
-			        <span>jQuery</span>
-			      </div>
-			      <div class="progress-line jquery">
-			        <span></span>
-			      </div>
+					<div class="info">
+						<span>Python</span>
+					</div>
+					<div class="progress-line python">
+						<span></span>
+					</div>
 			    </div>
 			    <div class="bar">
-			      <div class="info">
-			        <span>Python</span>
-			      </div>
-			      <div class="progress-line python">
-			        <span></span>
-			      </div>
-			    </div>
-			    <div class="bar">
-			      <div class="info">
-			        <span>MySQL</span>
-			      </div>
-			      <div class="progress-line mysql">
-			        <span></span>
-			      </div>
+					<div class="info">
+						<span>Java</span>
+					</div>
+					<div class="progress-line java">
+						<span></span>
+					</div>
 			    </div>
 			</div>
 		</div>
