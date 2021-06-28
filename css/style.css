@@ -74,6 +74,11 @@ footer {
   .main {
 		padding-top: 45px;
 	}
+	.main-timeline .timeline:nth-child(even) .content {
+		float: left;
+		margin-right: 0px;
+		margin-left: 10px;
+	}
 } 
 
 .svg {
@@ -774,7 +779,8 @@ img.prog-img {
 
 .main-timeline .timeline:nth-child(even) .content {
   float: left;
-  margin-left: 20px;                                      /* Mine */
+  padding-right: 70px;                                    /* Mine */
+  margin-left: 70px;                                      /* Mine */
 }
 
 .main-timeline .timeline:nth-child(even) .timeline-year {
