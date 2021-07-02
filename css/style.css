@@ -79,7 +79,24 @@ footer {
 		margin-right: 0px;
 		margin-left: 10px;
 	}
-} 
+}
+
+/*Third column in the Projects*/
+@media only screen and (max-width:1400px){
+	.col-sm.col-three.col-right {
+		margin-right: 4% !important;
+	}
+}
+@media only screen and (max-width: 990px){
+	.col-sm.col-three.col-right {
+		margin-right: 5.5% !important;
+	}
+}
+@media only screen and (max-width: 768px){
+	.col-sm.col-three.col-right {
+		margin-right: 7% !important;
+	}
+}
 
 .svg {
 	display: block;
@@ -126,7 +143,6 @@ footer {
 	text-align: center;
   padding-up: 35px;
 	padding-bottom: 35px;
-
 }
 
 .aboutme-icons > a {
@@ -367,8 +383,6 @@ img.prog-img {
 .col-one{
 	padding-top: 30px;
 	padding-bottom: 20px;
-	/*padding-left: 40px !important;
-	padding-right: 40px !important;*/
 	margin-bottom: 40px;
 	border:3px solid #7510F7;
 	border-radius: 25px;
@@ -403,14 +417,13 @@ img.prog-img {
 .col-two{
 	padding-top: 30px;
 	padding-bottom: 20px;
-	/*padding-left: 40px !important;
-	padding-right: 40px !important;*/
 	margin-bottom: 40px;
 	border:3px solid #7510F7;
 	border-radius: 25px;
 	box-shadow: 0 6px 10px 0 #7510F7,0 6px 10px 0 #7510F7;
 	cursor: pointer;
 	display: inline-block;
+	position: relative;
 }
 
 .col-two:hover {
@@ -423,14 +436,13 @@ img.prog-img {
 .col-three{
 	padding-top: 30px;
 	padding-bottom: 20px;
-	/*padding-left: 40px !important;*/
-/*	padding-right: 40px !important;*/
 	margin-bottom: 40px;
 	border:3px solid #7510F7;
 	border-radius: 25px;
 	box-shadow: 0 6px 10px 0 #7510F7,0 6px 10px 0 #7510F7;
 	cursor: pointer;
 	display: inline-block;
+	position: relative;
 }
 
 .col-three:hover {
