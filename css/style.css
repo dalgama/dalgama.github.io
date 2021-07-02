@@ -84,6 +84,11 @@ footer {
 /*Third column in the Projects*/
 @media only screen and (max-width:1400px){
 	.col-sm.col-three.col-right {
+		margin-right: 3.5% !important;
+	}
+}
+@media only screen and (max-width:1200px){
+	.col-sm.col-three.col-right {
 		margin-right: 4% !important;
 	}
 }
