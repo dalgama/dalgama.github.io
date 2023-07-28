@@ -574,6 +574,15 @@ img.prog-img {
   background: #6665ee;
   animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
+.bar .progress-line.python span{
+  width: 80%;
+}
+.bar .progress-line.cplusplus span{
+  width: 85%;
+}
+.bar .progress-line.java span{
+  width: 85%;
+}
 .bar .progress-line.react span{
   width: 65%;
 }
@@ -596,12 +605,6 @@ img.prog-img {
   width: 70%;
 }
 .bar .progress-line.mysql span{
-  width: 85%;
-}
-.bar .progress-line.python span{
-  width: 80%;
-}
-.bar .progress-line.java span{
   width: 85%;
 }
 
@@ -637,6 +640,15 @@ img.prog-img {
     opacity: 1;
   }
 }
+.progress-line.python span::after{
+  content: "80%";
+}
+.progress-line.cplusplus span::after{
+  content: "85%";
+}
+.progress-line.java span::after{
+  content: "85%";
+}
 .progress-line.react span::after{
   content: "65%";
 }
@@ -661,12 +673,7 @@ img.prog-img {
 .progress-line.mysql span::after{
   content: "85%";
 }
-.progress-line.python span::after{
-  content: "80%";
-}
-.progress-line.java span::after{
-  content: "85%";
-}
+
 
 .volunteer {
   background-color: #7510F7;
