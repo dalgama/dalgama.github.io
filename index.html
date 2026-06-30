@@ -1,587 +1,401 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dilanga's Portfolio | Home</title>
-
-    <meta name="description" content="Portfolio of Dilanga Algama – data-oriented Software Developer at the University of Ottawa. Specializing in Elentra ME, full-stack development, generative AI, and automation for web and CRM-style systems.">
-    <meta name="keywords" content="Dilanga Algama, Software Developer, Full-Stack, Generative AI, Elentra, Portfolio, Experience, Education">
-    <meta name="author" content="Dilanga Algama">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dilanga Algama is an Enterprise Software Engineer building full-stack applications, mobile delivery pipelines, production platforms, and AI-enabled systems.">
+    <meta name="keywords" content="Dilanga Algama, Enterprise Software Engineer, Full-stack Engineer, Mobile Developer, AI-enabled systems, Laravel, Vue.js, React Native">
+    <meta name="author" content="Dilanga Algama">
+    <meta name="theme-color" content="#07111f">
 
-    <!-- Main CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta property="og:title" content="Dilanga Algama | Enterprise Software Engineer">
+    <meta property="og:description" content="Full-stack, mobile, production systems, and AI-enabled application delivery for enterprise environments.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dalgama.github.io/">
+    <meta property="og:site_name" content="Dilanga Algama Portfolio">
+    <meta property="og:image" content="https://dalgama.github.io/img/programming-background.png">
+    <meta property="og:image:alt" content="Code editor on a laptop representing enterprise software delivery.">
 
-    <!-- Bootstrap 4 + jQuery (single, clean set) -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-0EvHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfMQuH2c6CkXrKG2F0kP"
-            crossorigin="anonymous"></script>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dilanga Algama | Enterprise Software Engineer">
+    <meta name="twitter:description" content="Enterprise software engineer focused on full-stack applications, mobile delivery, production platforms, and AI-enabled systems.">
+    <meta name="twitter:image" content="https://dalgama.github.io/img/programming-background.png">
 
-    <!-- Your JS -->
-    <script src="js/index.js"></script>
+    <title>Dilanga Algama | Enterprise Software Engineer Portfolio</title>
 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon_io/logo_blue.ico">
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light bgwhite">
-        <a class="navbar-brand" href="/">
-            <img src="img/logo.png" alt="Dilanga Algama | Full-stack developer" height="48">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-				<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-				<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-				<li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-				<li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
-				<li class="nav-item"><a class="nav-link" href="#community">Community</a></li>
-				<li class="nav-item"><a class="nav-link" href="#contacts-anch">Contacts</a></li>
-			</ul>
-        </div>
-    </nav>
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a class="brand" href="#hero" aria-label="Dilanga Algama home">
+                <span class="brand-mark" aria-hidden="true">DA</span>
+                <span class="brand-text">
+                    <span class="brand-name">Dilanga Algama</span>
+                    <span class="brand-role">Enterprise Software Engineer</span>
+                </span>
+            </a>
 
-    <div class="main">
-        <!-- HERO -->
-        <div class="intro" id="intro-text">
-            <h1>Software Developer, Full-Stack Engineer &amp; Generative AI Builder.</h1>
-            <p class="intro-subtitle">
-                I design and ship data-driven, AI-powered web experiences — and I care about clean code as much as clean UX.
-            </p>
-
-            <div class="intro-actions">
-                <a href="#projects" class="btn-hero-primary">View Projects</a>
-                <a href="#contacts-anch" class="btn-hero-secondary">Contact Me</a>
+            <div class="nav-links">
+                <a href="#impact">Impact</a>
+                <a href="#work">Work</a>
+                <a href="#experience">Experience</a>
+                <a href="#stack">Stack</a>
+                <a href="#contact">Contact</a>
             </div>
-        </div>
+        </nav>
+    </header>
 
-        <!-- HERO ILLUSTRATION -->
-        <img class="svg" src="img/coding.svg" alt="Coding illustration" loading="lazy">
-
-        <!-- ABOUT -->
-        <section class="aboutme" id="aboutme">
-            <div class="aboutme-text-title">
-                <h3>Hi, I'm Dilanga Algama. Nice to meet you.</h3>
-            </div>
-            <div class="aboutme-text-body">
-                <p>
-                    I'm a data-oriented Software Developer at the University of Ottawa (Faculty of Medicine) and a
-                    generative AI analyst based in Ottawa, Canada. I work on <strong>Elentra ME</strong>, a CRM-style
-                    medical education platform used across global institutions, and build AI-assisted tools and
-                    automation for businesses like <strong>Euroshine</strong>.
-                </p>
-                <p>
-                    My background combines a BSc in Computer Science &amp; Business Management with hands-on
-                    full-stack experience in PHP/Laravel, React, Vue.js, JavaScript and SQL/MariaDB. Recently I've been
-                    focused on automating repetitive workflows, designing on-site AI agents, and turning messy data
-                    into reliable, actionable systems.
+    <main id="main">
+        <section class="hero section-shell" id="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <p class="section-kicker">Full-stack systems. Mobile delivery. AI-enabled platforms.</p>
+                <h1 id="hero-title">Enterprise Software Engineer building full-stack, mobile, and AI-enabled applications.</h1>
+                <p class="hero-subtext">
+                    I design, develop, and support production software used in complex organizational environments,
+                    with experience across admissions systems, medical education platforms, mobile app delivery,
+                    reporting tools, and AI-enabled automation.
                 </p>
 
-                <div class="aboutme-pills">
-					<span>Medical education & EdTech</span>
-					<span>Full-stack web engineering</span>
-					<span>Applied AI & workflow automation</span>
-				</div>
+                <div class="hero-actions" aria-label="Primary links">
+                    <a class="button button-primary" href="#work">View Work</a>
+                    <a class="button button-secondary" href="resume.pdf">View Resume</a>
+                    <a class="button button-secondary" href="https://www.linkedin.com/in/dilanga-algama/" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a class="button button-secondary" href="https://github.com/dalgama/" target="_blank" rel="noreferrer">GitHub</a>
+                </div>
             </div>
-            <div class="aboutme-icons">
-                <a href="https://github.com/dalgama/" target="_blank" rel="noreferrer">
-                    <img src="img/icons/github.svg" alt="GitHub">
+
+            <figure class="hero-media">
+                <img src="img/programming-background.png" alt="Code editor on a laptop representing enterprise software delivery.">
+                <figcaption>
+                    <span>Production systems</span>
+                    <span>Mobile releases</span>
+                    <span>AI automation</span>
+                </figcaption>
+            </figure>
+        </section>
+
+        <section class="section-shell section-block" id="impact" aria-labelledby="impact-title">
+            <div class="section-heading">
+                <p class="section-kicker">Impact Snapshot</p>
+                <h2 id="impact-title">Built around delivery in real operating environments.</h2>
+            </div>
+
+            <div class="impact-grid">
+                <article class="impact-item">
+                    <span class="impact-value">5+</span>
+                    <p>years professional software experience</p>
+                </article>
+                <article class="impact-item">
+                    <span class="impact-value">uOttawa</span>
+                    <p>enterprise applications at University of Ottawa Faculty of Medicine</p>
+                </article>
+                <article class="impact-item">
+                    <span class="impact-value">Mobile</span>
+                    <p>sole uOttawa developer for ElentraUO Mobile</p>
+                </article>
+                <article class="impact-item">
+                    <span class="impact-value">Delivery</span>
+                    <p>full-stack, mobile, and AI-enabled software delivery</p>
+                </article>
+                <article class="impact-item">
+                    <span class="impact-value">PSM I / PSD I</span>
+                    <p>certified in Scrum and professional software delivery practices</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-shell section-block" id="work" aria-labelledby="work-title">
+            <div class="section-heading">
+                <p class="section-kicker">Featured Work</p>
+                <h2 id="work-title">Selected work across enterprise, mobile, and AI-enabled systems.</h2>
+                <p class="section-note">Selected work is summarized at a high level to respect internal system confidentiality.</p>
+            </div>
+
+            <div class="work-grid">
+                <article class="work-card">
+                    <span class="work-index">01</span>
+                    <h3>UGME Admissions Platform</h3>
+                    <div class="work-details">
+                        <div class="work-detail">
+                            <span class="work-label">Role</span>
+                            <p>Full-stack developer for admissions administration, file review, and interview applications.</p>
+                        </div>
+                        <div class="work-detail">
+                            <span class="work-label">Impact</span>
+                            <p>Replaced spreadsheet- and email-heavy processes with auditable role-based web tools for administrators, reviewers, and interviewers.</p>
+                        </div>
+                        <div class="work-detail">
+                            <span class="work-label">Tech</span>
+                            <ul class="tag-list" aria-label="Technologies used for UGME Admissions Platform">
+                                <li>PHP</li>
+                                <li>Laravel</li>
+                                <li>Vue.js</li>
+                                <li>MySQL</li>
+                                <li>Reporting</li>
+                                <li>PDF Generation</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <span class="work-index">02</span>
+                    <h3>ElentraUO Mobile</h3>
+                    <div class="work-details">
+                        <div class="work-detail">
+                            <span class="work-label">Role</span>
+                            <p>Sole uOttawa developer responsible for adapting, maintaining, and releasing the uOttawa version of the Elentra mobile platform.</p>
+                        </div>
+                        <div class="work-detail">
+                            <span class="work-label">Impact</span>
+                            <p>Stabilized mobile delivery through app branding, Expo/EAS configuration, Android/iOS release setup, and release process improvements.</p>
+                        </div>
+                        <div class="work-detail">
+                            <span class="work-label">Tech</span>
+                            <ul class="tag-list" aria-label="Technologies used for ElentraUO Mobile">
+                                <li>React Native</li>
+                                <li>Expo</li>
+                                <li>EAS</li>
+                                <li>Android</li>
+                                <li>iOS</li>
+                                <li>Mobile Delivery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <span class="work-index">03</span>
+                    <h3>Notivox</h3>
+                    <div class="work-details">
+                        <div class="work-detail">
+                            <span class="work-label">Role</span>
+                            <p>Product builder developing a real-time multilingual meeting assistant across desktop, web, and backend services.</p>
+                        </div>
+                        <div class="work-detail">
+                            <span class="work-label">Impact</span>
+                            <p>Turns live meetings into transcription, translation, and AI-generated summaries for faster follow-up and clearer documentation.</p>
+                        </div>
+                        <div class="work-detail">
+                            <span class="work-label">Tech</span>
+                            <ul class="tag-list" aria-label="Technologies used for Notivox">
+                                <li>Electron</li>
+                                <li>React</li>
+                                <li>Python</li>
+                                <li>OpenAI</li>
+                                <li>Deepgram</li>
+                                <li>AI</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <span class="work-index">04</span>
+                    <h3>AI-Enabled Operations Tools</h3>
+                    <div class="work-details">
+                        <div class="work-detail">
+                            <span class="work-label">Role</span>
+                            <p>Developer of AI-assisted web tools and automation patterns for business process improvement.</p>
+                        </div>
+                        <div class="work-detail">
+                            <span class="work-label">Impact</span>
+                            <p>Reduces repetitive manual work, improves response consistency, and supports more reliable operational processes.</p>
+                        </div>
+                        <div class="work-detail">
+                            <span class="work-label">Tech</span>
+                            <ul class="tag-list" aria-label="Technologies used for AI-Enabled Operations Tools">
+                                <li>OpenAI APIs</li>
+                                <li>Automation</li>
+                                <li>Web Applications</li>
+                                <li>Process Improvement</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-shell section-block" id="experience" aria-labelledby="experience-title">
+            <div class="section-heading">
+                <p class="section-kicker">Experience</p>
+                <h2 id="experience-title">Software roles focused on production systems and organizational operations.</h2>
+            </div>
+
+            <div class="experience-list">
+                <article class="experience-item">
+                    <p class="experience-period">2021 - Present</p>
+                    <div>
+                        <h3>Software Developer</h3>
+                        <p class="experience-org">University of Ottawa Faculty of Medicine</p>
+                        <p>
+                            Develop and support full-stack applications for medical education and admissions processes,
+                            including role-based interfaces, reporting, data quality improvements, and production issue
+                            diagnosis across complex stakeholder environments.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="experience-item">
+                    <p class="experience-period">2022 - Present</p>
+                    <div>
+                        <h3>Generative AI Analyst / Web Developer</h3>
+                        <p class="experience-org">Euroshine</p>
+                        <p>
+                            Build and maintain web, data, and AI-assisted tools that improve customer
+                            response consistency, reduce repetitive manual effort, and support operational process
+                            improvement.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="experience-item">
+                    <p class="experience-period">2019 - 2021</p>
+                    <div>
+                        <h3>Junior Web Developer</h3>
+                        <p class="experience-org">University of Ottawa Web Services</p>
+                        <p>
+                            Supported university web services through front-end development, CMS maintenance,
+                            accessibility-aware content processes, training material, and production website support.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-shell section-block" id="stack" aria-labelledby="stack-title">
+            <div class="section-heading">
+                <p class="section-kicker">Technical Stack</p>
+                <h2 id="stack-title">Tools used to ship maintainable software across the stack.</h2>
+            </div>
+
+            <div class="stack-grid">
+                <article class="stack-group">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Laravel</li>
+                        <li>Python</li>
+                        <li>REST APIs</li>
+                        <li>GraphQL</li>
+                    </ul>
+                </article>
+
+                <article class="stack-group">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>Vue.js</li>
+                        <li>React</li>
+                        <li>JavaScript</li>
+                        <li>Twig</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </article>
+
+                <article class="stack-group">
+                    <h3>Mobile</h3>
+                    <ul>
+                        <li>React Native</li>
+                        <li>Expo</li>
+                    </ul>
+                </article>
+
+                <article class="stack-group">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>MariaDB</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                </article>
+
+                <article class="stack-group">
+                    <h3>DevOps</h3>
+                    <ul>
+                        <li>GitLab</li>
+                        <li>Docker</li>
+                        <li>Linux</li>
+                        <li>Apache</li>
+                    </ul>
+                </article>
+
+                <article class="stack-group">
+                    <h3>AI</h3>
+                    <ul>
+                        <li>OpenAI APIs</li>
+                        <li>Deepgram</li>
+                        <li>Prompt Engineering</li>
+                        <li>Process Automation</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-shell section-block" id="certifications" aria-labelledby="certifications-title">
+            <div class="section-heading">
+                <p class="section-kicker">Certifications</p>
+                <h2 id="certifications-title">Credentials supporting agile delivery and applied AI work.</h2>
+            </div>
+
+            <div class="certification-grid">
+                <article class="certification-item">
+                    <h3>Professional Scrum Master I</h3>
+                    <p>Scrum.org certification for Scrum fundamentals, accountabilities, events, and empirical delivery.</p>
+                </article>
+                <article class="certification-item">
+                    <h3>Professional Scrum Developer I</h3>
+                    <p>Scrum.org certification focused on development practices within incremental product delivery.</p>
+                </article>
+                <article class="certification-item">
+                    <h3>Generative AI Mastermind</h3>
+                    <p>Applied generative AI coursework covering automation design, product strategy, and implementation.</p>
+                </article>
+                <article class="certification-item">
+                    <h3>AI/ML Coursework</h3>
+                    <p>Coursework in machine learning, AI systems, and practical model-enabled development practices.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
+            <div class="contact-copy">
+                <p class="section-kicker">Contact</p>
+                <h2 id="contact-title">Interested in software engineering opportunities involving enterprise applications, mobile delivery, and AI-enabled systems.</h2>
+                <p>
+                    The fastest way to reach me is by email. You can also review my professional profile, GitHub work,
+                    or resume using the links below.
+                </p>
+            </div>
+
+            <address class="contact-links" aria-label="Contact links">
+                <a href="mailto:dilanga101@gmail.com">
+                    <span>Email</span>
+                    <strong>dilanga101@gmail.com</strong>
                 </a>
                 <a href="https://www.linkedin.com/in/dilanga-algama/" target="_blank" rel="noreferrer">
-                    <img src="img/icons/linkedin.svg" alt="LinkedIn">
+                    <span>LinkedIn</span>
+                    <strong>linkedin.com/in/dilanga-algama</strong>
                 </a>
-                <a href="mailto: dilanga101@gmail.com">
-                    <img src="img/icons/mail.svg" alt="Email">
+                <a href="https://github.com/dalgama/" target="_blank" rel="noreferrer">
+                    <span>GitHub</span>
+                    <strong>github.com/dalgama</strong>
                 </a>
-            </div>
+                <a href="resume.pdf">
+                    <span>Resume</span>
+                    <strong>View resume PDF</strong>
+                </a>
+            </address>
         </section>
+    </main>
 
-        <!-- EXPERIENCE -->
-        <div class="experience section-band section-band--light" id="experience">
-            <h2>Work Experience</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="main-timeline8">
-                            <div class="timeline">
-                                <span class="timeline-icon"></span>
-                                <span class="year">2021 - Present</span>
-                                <div class="timeline-content">
-                                    <h3 class="title">Software Developer (University of Ottawa)</h3>
-                                    <p class="description">
-                                        <span>
-											Software Developer with the Faculty of Medicine, working on <strong>Elentra ME</strong> for the
-											University of Ottawa’s MD program and the <strong>UGME Admissions</strong> website. I maintain and
-											extend full-stack features for learner, curriculum and assessment data, and support
-											admissions workflows end-to-end.
-                                        </span>
-                                        <br><br>
-                                        <span>
-                                            I design and optimize SQL queries, handle data integrity and legacy data
-                                            cleanup, and coordinate deployments across environments. Tech stack
-                                            includes Laravel/PHP, Vue.js, React, JavaScript, HTML/CSS and MariaDB.
-                                            I also led the <strong>UO Elentra ME mobile app</strong> rebrand and rollout
-                                            and act as a point person for data-related issues and internal training.
-                                        </span>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="timeline">
-                                <span class="timeline-icon"></span>
-                                <span class="year">2022 - Present</span>
-                                <div class="timeline-content">
-                                    <h3 class="title">Generative AI Analyst / Web Developer (Euroshine Inc)</h3>
-                                    <p class="description">
-                                        <span>
-                                            Lead ongoing rebuild of Euroshine’s website and data-tracking stack using
-                                            WordPress, PHP, SASS, CSS and JavaScript to improve performance,
-                                            security and UX for both new and returning customers.
-                                        </span>
-                                        <br><br>
-                                        <span>
-                                            Manage customer and lead data for targeted marketing campaigns, including
-                                            segmentation, cleanup and performance tracking. Build on-site automations
-                                            and AI assistants to handle repetitive customer inquiries and internal
-                                            workflows, and work on SEO and Google Ads optimization to improve lead
-                                            quality.
-                                        </span>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="timeline">
-                                <span class="timeline-icon"></span>
-                                <span class="year">2019 - 2021</span>
-                                <div class="timeline-content">
-                                    <h3 class="title">Junior Web Developer (University of Ottawa)</h3>
-                                    <p class="description">
-                                        <span>
-                                            Developed and optimized uOttawa.ca web services on Drupal (7–9), SASS,
-                                            CSS, JavaScript, PHP and Laravel. Worked on module maintenance, bug fixes,
-                                            performance improvements and new features across multiple sub-sites.
-                                        </span>
-                                        <br><br>
-                                        <span>
-                                            Led monthly training sessions for campus webmasters and produced
-                                            step-by-step guides for content creators, with a focus on accessibility
-                                            (AODA), correct data/content entry and consistent use of centralized web
-                                            systems.
-                                        </span>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="timeline">
-                                <span class="timeline-icon"></span>
-                                <span class="year">2014 - 2016</span>
-                                <div class="timeline-content">
-                                    <h3 class="title">Web / Arcade Programmer (Midway Fun Park)</h3>
-                                    <p class="description">
-                                        <span>
-                                            Rebuilt and maintained the company website using WordPress, integrating
-                                            required plugins and custom styling.
-                                        </span>
-                                        <br><br>
-                                        <span>
-                                            Programmed and configured arcade machine systems according to company
-                                            requirements, fixed hardware/software issues and performed regular
-                                            maintenance to keep machines operational.
-                                        </span>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="timeline">
-                                <span class="timeline-icon"></span>
-                                <span class="year">2013 - 2014</span>
-                                <div class="timeline-content">
-                                    <h3 class="title">Arcade Attendant (Midway Fun Park)</h3>
-                                    <p class="description">
-                                        <span>
-                                            Part of the team operating arcade attractions and assisting guests on site.
-                                            Supported summer camps and outdoor festivals, ensuring games ran smoothly
-                                            and visitors had a safe experience.
-                                        </span>
-                                    </p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- PROJECTS -->
-        <div class="projects section-band section-band--muted" id="projects">
-            <h2>Projects</h2>
-
-            <div class="project-background"></div>
-
-            <div class="project-grid">
-                <div class="project-card" onclick="ir();">
-                    <img class="project-img" src="img/projects/neural_twitter.jpeg" alt="AI-Based Neural IR System" loading="lazy">
-                    <h3>AI-Based Neural IR System (X / Twitter)</h3>
-                    <p class="project-meta">2025 · Python, NLP, X API</p>
-                    <p>
-                        Neural information retrieval system that computes semantic similarity between live X (Twitter) data and user queries.
-                        Uses TF-IDF, cosine similarity and query expansion to surface relevant posts in real time.
-                    </p>
-                </div>
-
-                <div class="project-card" id="webchat" onclick="webchat();">
-                    <img class="project-img" src="img/projects/webchat.png" alt="Online Chat Platform" loading="lazy">
-                    <h3>Online Chat Platform (WebChat)</h3>
-                    <p class="project-meta">2020–2021 · AWS, JS, PostgreSQL</p>
-                    <p>
-                        Dynamic chat platform where users are matched anonymously based on interest tags, backed by a managed database
-                        and real-time messaging on AWS.
-                    </p>
-                </div>
-
-                <div class="project-card" id="poker-ai" onclick="poker();">
-                    <img class="project-img" src="img/projects/poker-ai.jpeg" alt="AI Poker Game" loading="lazy">
-                    <h3>AI Poker Game</h3>
-                    <p class="project-meta">2020 · C++, ML Classifier</p>
-                    <p>
-                        Poker game powered by a classifier trained on historical play data. The AI chooses moves based on learned patterns,
-                        reaching over 98% accuracy on the test set.
-                    </p>
-                </div>
-
-                <div class="project-card" id="bonanza" onclick="bonanza();">
-                    <img class="project-img" src="img/projects/bonanza.jpg" alt="Bonanza Card Game" loading="lazy">
-                    <h3>Bonanza Card Game</h3>
-                    <p class="project-meta">2020 · C++</p>
-                    <p>
-                        C++ implementation of the Bonanza card game, handling all rules and edge cases with a focus on clean
-                        object-oriented design and robust error handling.
-                    </p>
-                </div>
-
-                <div class="project-card" id="resto" onclick="resto();">
-                    <img class="project-img" src="img/projects/resto.jpeg" alt="Resto Presto" loading="lazy">
-                    <h3>Restaurant Rating Website (Resto Presto)</h3>
-                    <p class="project-meta">2018 · Java EE, PostgreSQL</p>
-                    <p>
-                        Dynamic web app on the Java EE platform where users can rate restaurants. Runs on Apache Tomcat with a PostgreSQL
-                        backend and custom HTML/CSS front-end.
-                    </p>
-                </div>
-
-                <div class="project-card" id="subway" onclick="subway();">
-                    <img class="project-img" src="img/projects/paris_subway.jpeg" alt="Paris Subway Navigator" loading="lazy">
-                    <h3>Paris Subway Navigator</h3>
-                    <p class="project-meta">2017 · C++</p>
-                    <p>
-                        Route-finding system for the Paris subway that computes the most time-efficient path between stations,
-                        including distances and step-by-step directions.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- SKILLS -->
-        <div class="skills section-band section-band--light" id="skills">
-            <h2>Skills</h2>
-
-            <div class="skill-bars">
-                <div class="bar">
-                    <div class="info"><span>Python</span></div>
-                    <div class="progress-line python"><span></span></div>
-                </div>
-                <div class="bar">
-                    <div class="info"><span>C++</span></div>
-                    <div class="progress-line cplusplus"><span></span></div>
-                </div>
-                <div class="bar">
-                    <div class="info"><span>Java</span></div>
-                    <div class="progress-line java"><span></span></div>
-                </div>
-                <div class="bar">
-                    <div class="info"><span>React</span></div>
-                    <div class="progress-line react"><span></span></div>
-                </div>
-                <div class="bar">
-                    <div class="info"><span>PHP</span></div>
-                    <div class="progress-line php"><span></span></div>
-                </div>
-                <div class="bar">
-                    <div class="info"><span>HTML</span></div>
-                    <div class="progress-line html"><span></span></div>
-                </div>
-                <div class="bar">
-                    <div class="info"><span>CSS</span></div>
-                    <div class="progress-line css"><span></span></div>
-                </div>
-                <div class="bar">
-                    <div class="info"><span>JavaScript</span></div>
-                    <div class="progress-line js"><span></span></div>
-                </div>
-                <div class="bar">
-                    <div class="info"><span>jQuery</span></div>
-                    <div class="progress-line jquery"><span></span></div>
-                </div>
-                <div class="bar">
-                    <div class="info"><span>NodeJS</span></div>
-                    <div class="progress-line nodejs"><span></span></div>
-                </div>
-                <div class="bar">
-                    <div class="info"><span>MySQL / MariaDB</span></div>
-                    <div class="progress-line mysql"><span></span></div>
-                </div>
-            </div>
-        </div>
-
-        <!-- EDUCATION (moved down) -->
-        <section class="education section-band section-band--muted" id="education">
-            <h2>Education</h2>
-            <div class="education-info">
-                <h3>University of Ottawa</h3>
-                <p class="degree">BSc. Specialization in Computer Science and Business Management</p>
-                <p>
-                    Completed coursework in Data Structures and Algorithms, Information Retrieval, Artificial
-                    Intelligence, Operating Systems, Software Engineering, and Data Science. Business courses included
-                    Marketing, Financial Accounting, Cross-Cultural Management and International Business.
-                    Graduated in June 2021.
-                </p>
-            </div>
-        </section>
-
-		<!-- COMMUNITY & MENTORING -->
-		<!-- <section class="community section-band section-band--dark" id="community">
-		<div class="community-inner">
-			<h2>Community &amp; Mentoring</h2>
-			<h3>uOttaHack Mentor</h3>
-			<p>
-			Supported student teams during uOttawa’s hackathon (2020–2021), answering technical
-			questions, unblocking issues and helping them polish submissions.
-			</p>
-		</div>
-		</section> -->
-
-
-        <!-- VOLUNTEERING -->
-        <!-- <div class="volunteer section-band section-band--dark" id="volunteer">
-            <h2 class="volunteer-title">Volunteer / Extra Curricular Activities</h2>
-            <div class="volunteer-container">
-                <div class="row">
-                    <div class="col">
-                        <div class="main-timeline">
-                            <div class="timeline">
-                                <div class="timeline-content">
-                                    <span class="timeline-year">2021</span>
-                                    <div class="timeline-icon">
-                                        <i class="fa fa-rocket" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h3 class="title">uOttaHack Mentor - Hackathon</h3>
-                                        <p class="description">
-                                            Supported students during the competition, answered technical questions and
-                                            helped them connect with sponsors.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="timeline">
-                                <div class="timeline-content">
-                                    <span class="timeline-year">2020</span>
-                                    <div class="timeline-icon">
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h3 class="title">uOttaHack Mentor - Hackathon</h3>
-                                        <p class="description">
-                                            Supervised teams, helped competitors submit projects before deadlines and
-                                            notified students about workshops and seminars.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- <div class="timeline">
-                                <div class="timeline-content">
-                                    <span class="timeline-year">2018</span>
-                                    <div class="timeline-icon">
-                                        <i class="fa fa-cog" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h3 class="title">uOttaHack Participant - Hackathon</h3>
-                                        <p class="description">
-                                            Built an anonymous chat website (WebChat) that matches users based on
-                                            shared interests. This later evolved into the online chat platform project
-                                            in my portfolio.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <!-- <div class="timeline">
-                                <div class="timeline-content">
-                                    <span class="timeline-year">2017</span>
-                                    <div class="timeline-icon">
-                                        <i class="fa fa-heart" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h3 class="title">101 Week Volunteer (SFUO)</h3>
-                                        <p class="description">
-                                            Helped new students find their classes and navigate campus during 101 Week
-                                            and supported events organized for first-year students.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div> -->
-                        </div> <!-- /.main-timeline -->
-                    </div>
-                </div>
-            </div>
-        </div>
-
-<!-- CERTIFICATIONS (blue/purple band) -->
-<section class="rewards section-band section-band--dark" id="certifications">
-    <h2>Certifications</h2>
-    <div class="rewards-container">
-        <div class="row">
-            <div class="col">
-                <div class="main-timeline">
-                    <div class="timeline">
-                        <div class="timeline-content">
-                            <span class="timeline-year">2025</span>
-                            <div class="timeline-icon">
-                                <i class="fa fa-certificate" aria-hidden="true"></i>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">Professional Scrum Master I (PSM I)</h3>
-                                <p class="description">
-                                    Scrum.org certification demonstrating knowledge of Scrum roles, events,
-                                    artifacts and empirical product development.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline">
-                        <div class="timeline-content">
-                            <span class="timeline-year">2025</span>
-                            <div class="timeline-icon">
-                                <i class="fa fa-certificate" aria-hidden="true"></i>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">Professional Scrum Developer I (PSD I)</h3>
-                                <p class="description">
-                                    Scrum.org certification focused on applying Scrum within a development
-                                    team, including engineering practices and incremental delivery.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline">
-                        <div class="timeline-content">
-                            <span class="timeline-year">2025</span>
-                            <div class="timeline-icon">
-                                <i class="fa fa-certificate" aria-hidden="true"></i>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">Generative AI Mastermind</h3>
-                                <p class="description">
-                                    Outskill program covering AI workflows, product strategy, implementation,
-                                    workflow automation and responsible deployment of generative AI.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-					<!-- AI / ML Coursework – now above Java and tagged with .timeline-ml -->
-					<div class="timeline timeline-ml">
-						<div class="timeline-content">
-							<span class="timeline-year">2025</span>
-							<div class="timeline-icon">
-							<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-							</div>
-							<div class="content">
-							<h3 class="title">AI / ML Coursework – Coursera &amp; DeepLearning.ai</h3>
-							<p class="description">
-								Ongoing coursework in machine learning and deep learning, including neural networks
-								and practical ML workflows (in progress).
-							</p>
-							</div>
-						</div>
-					</div>
-
-					<!-- Java certification – now below AI/ML -->
-					<div class="timeline">
-						<div class="timeline-content">
-							<span class="timeline-year">2021</span>
-							<div class="timeline-icon">
-							<i class="fa fa-code" aria-hidden="true"></i>
-							</div>
-							<div class="content">
-							<h3 class="title">Java Certification: Algorithm Design, Abstraction, Testing &amp; Debugging</h3>
-							<p class="description">
-								Certification focused on core Java, problem solving, abstraction, unit testing
-								and debugging practices.
-							</p>
-							</div>
-						</div>
-					</div>
-                </div><!-- /.main-timeline -->
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- COMMUNITY & MENTORING (light band) -->
-<section class="community section-band section-band--light" id="community">
-  <div class="community-inner">
-    <h2>Community &amp; Mentoring</h2>
-    <h3>uOttaHack Mentor</h3>
-    <p>
-      Supported student teams during uOttawa’s hackathon (2020–2021), answering technical
-      questions, unblocking issues and helping them polish submissions.
-    </p>
-  </div>
-</section>
-
-
-
-    </div> <!-- /.main -->
-
+    <footer class="site-footer">
+        <p>&copy; 2026 Dilanga Algama. Built as a fast, accessible static portfolio.</p>
+    </footer>
 </body>
-<footer>
-    <div class="custom-footer" id="custom-footer">
-        <div class="footer-logo">
-            <a href="index.html">
-                <img src="img/logo_white.jpeg" alt="Dilanga Algama | Full-Stack developer" height="48">
-            </a>
-        </div>
-        <div class="footer-title">
-            <p>Living, learning &amp; leveling up one day at a time.</p>
-        </div>
-        <div class="footer-contact-title" id="contacts-anch">
-            <h2>Contacts</h2>
-        </div>
-        <div class="footer-icons">
-            <a href="https://github.com/dalgama/" title="Github" target="_blank" rel="noreferrer">
-                <img src="img/icons/github.svg" alt="GitHub">
-            </a>
-            <a href="https://www.linkedin.com/in/dilanga-algama/" title="LinkedIn" target="_blank" rel="noreferrer">
-                <img src="img/icons/linkedin.svg" alt="LinkedIn">
-            </a>
-            <a href="mailto: dilanga101@gmail.com" title="Email">
-                <img src="img/icons/mail.svg" alt="Email">
-            </a>
-        </div>
-        <p>HANDCRAFTED BY DILANGA ALGAMA.</p>
-        <p>&#169; 2025 DILANGA. ALL RIGHTS RESERVED.</p>
-    </div>
-</footer>
 </html>
